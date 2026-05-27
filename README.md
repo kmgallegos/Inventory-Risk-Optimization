@@ -39,6 +39,8 @@ Calculated columns (revenue, stock coverage days, restock/overstock flags, price
 
 In Power BI, all measures are organized in a dedicated `_Measures` table.
 
+<img width="1275" height="787" alt="Image" src="https://github.com/user-attachments/assets/630aec1d-42f3-4967-b63e-e35046b85153" />
+
 ---
 
 ## ETL Pipeline
@@ -66,13 +68,19 @@ The pipeline was validated end-to-end: **0 orphan keys, 0 duplicates**.
 
 Provides a high-level snapshot of the business. Key metrics include Total Revenue, Fill Rate %, and Average Coverage Days. An alert card system highlights active Restock and Overstock situations using color-coded borders (red for restock risk, orange for overstock). The Monthly Revenue Trend line chart spans the full 2-year period with Min/Max analytics lines to surface seasonal peaks and troughs. Filters by date range and region allow drill-down without leaving the page.
 
+<img width="1486" height="837" alt="Image" src="https://github.com/user-attachments/assets/f7b241ba-c7de-493c-b08e-2060c9e91d34" />
+
 **Page 2 — Inventory Risk**
 
 Focuses on quantifying the financial impact of stock imbalances. The headline figure is **$989M in capital tied up in overstock — equivalent to nearly 5 years of annual revenue**, with Groceries concentrating 38% of that risk. The page includes side-by-side Restock/Overstock breakdowns by category, a Top Products at Risk table with conditional formatting, and coverage day indicators to prioritize action.
 
+<img width="1480" height="836" alt="Image" src="https://github.com/user-attachments/assets/323ee21a-b657-4448-b955-2c70e48ef705" />
+
 **Page 3 — Commercial Strategy**
 
 Evaluates pricing and discount effectiveness across the product portfolio. A scatter plot (Discount Efficiency) maps Fill Rate % against Average Discount % — sized by Units Sold and colored by Category — to identify which categories convert discount spend into actual sales and which do not. A clustered bar chart compares our prices against competitor pricing by category.
+
+<img width="1483" height="835" alt="Image" src="https://github.com/user-attachments/assets/341c0633-03e4-42b3-a825-8476222e4ef0" />
 
 ---
 
@@ -87,6 +95,7 @@ Alerts        → # Restock Alerts, % Restock Risk, # Overstock Alerts, % Overst
 Coverage      → Avg Coverage Days, Stock Shortage, Total Stock Demand Gap
 Storytelling  → Capital at Risk ($989M), Years of Revenue at Risk (~5)
 ```
+<img width="361" height="655" alt="Image" src="https://github.com/user-attachments/assets/3ce3d8a6-3b79-46d3-b7b0-f2918ffc3c94" />
 
 ---
 
