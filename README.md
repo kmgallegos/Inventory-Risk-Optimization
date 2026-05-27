@@ -2,7 +2,7 @@
 
 End-to-end Business Intelligence project — SQL Server ETL pipeline combined with a Power BI executive dashboard covering inventory performance, stock risk, and commercial strategy for a fictional retail chain.
 
-**[View the interactive dashboard here](https://app.powerbi.com/view?r=eyJrIjoiOWEyYzRlM2EtNGFiZS00ZjlkLTgxMjYtM2I5MTYzYjRkMWNhIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9&language=en-US)**
+You can access the dashboard **[  here](https://app.powerbi.com/view?r=eyJrIjoiOWEyYzRlM2EtNGFiZS00ZjlkLTgxMjYtM2I5MTYzYjRkMWNhIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9&language=en-US)**
 
 ---
 
@@ -112,7 +112,7 @@ This project demonstrates a complete BI workflow: from raw data ingestion and SQ
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/inventory-dashboard.git
+   git clone https://github.com/kmgallegos/Inventory-Risk-Optimization.git
    ```
 
 2. **Run the ETL scripts in order** using SSMS or Azure Data Studio (connect to your local SQL Server):
@@ -125,4 +125,4 @@ This project demonstrates a complete BI workflow: from raw data ingestion and SQ
 
 4. **Apply the theme** via *View → Themes → Browse for themes* and select `inventory_dark_theme.json`.
 
-5. **Refresh** the dataset — all visuals should populate automatically.
+5. **Build your visuals** — recreate the three dashboard pages connecting to the `dw` schema tables. All measures and calculated columns are already available in the fact and dimension tables.
